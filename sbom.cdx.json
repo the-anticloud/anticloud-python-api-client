@@ -1,0 +1,75 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:5f8a0573-a9bd-5b47-935c-9e56794a9338",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:59:04Z",
+  "component": {
+   "type": "application",
+   "name": "PYTHON_API_CLIENT",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/PYTHON_API_CLIENT@83b357604d34",
+   "purl": "pkg:generic/anticloud/PYTHON_API_CLIENT@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "httplib2",
+   "version": ">=0.19.0,<1.0.0",
+   "purl": "pkg:pypi/httplib2@0.19.0,<1.0.0",
+   "bom-ref": "pypi/httplib2@>=0.19.0,<1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "google-auth",
+   "version": ">=1.32.0,<3.0.0,!=2.24.0,!=2.25.0",
+   "purl": "pkg:pypi/google-auth@1.32.0,<3.0.0,!=2.24.0,!=2.25.0",
+   "bom-ref": "pypi/google-auth@>=1.32.0,<3.0.0,!=2.24.0,!=2.25.0"
+  },
+  {
+   "type": "library",
+   "name": "google-auth-httplib2",
+   "version": ">=0.2.0, <1.0.0",
+   "purl": "pkg:pypi/google-auth-httplib2@0.2.0, <1.0.0",
+   "bom-ref": "pypi/google-auth-httplib2@>=0.2.0, <1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "google-api-core",
+   "version": ">= 1.31.5, <3.0.0,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0",
+   "purl": "pkg:pypi/google-api-core@1.31.5, <3.0.0,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0",
+   "bom-ref": "pypi/google-api-core@>= 1.31.5, <3.0.0,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0"
+  },
+  {
+   "type": "library",
+   "name": "uritemplate",
+   "version": ">=3.0.1,<5",
+   "purl": "pkg:pypi/uritemplate@3.0.1,<5",
+   "bom-ref": "pypi/uritemplate@>=3.0.1,<5"
+  }
+ ],
+ "sha_unverified": true
+}
