@@ -1,0 +1,21 @@
+{
+ "framework": "22_SSDF",
+ "title": "NIST SP 800-218 SSDF v1.1",
+ "project": "PYTHON_API_CLIENT",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "{\"branch\": \"main\", \"commits\": 1, \"gitignore_present\": true, "
+  },
+  {
+   "check": "07_owasp_top10",
+   "status": "PASS",
+   "observed": "{\"authority\": \"OWASP Foundation\", \"control_ids\": [\"A01:2021\""
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "5cb159fe6aa2a3e2679f43cb249e4f8b1b8ee113825cdcdd6c3954bc9418d6b8",
+ "register_sha3": "44765e0939769efc900c8517bf690f7fae6ec88b40748f748ae036b640d5f7f5"
+}
